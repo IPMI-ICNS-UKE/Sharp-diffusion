@@ -1,5 +1,5 @@
 # Sharp-Diffusion
-This repository prvides code for the assessment of Feature loss for 2D super-Resolution of Diffusion MRI data.  
+This repository provides code for the assessment of Feature loss for 2D super-Resolution of Diffusion MRI data.  
 
 All code is available as jupyter notebooks which can be customized for application to new data.
 Models are trained using data from n=10 subjects from the 7T HCP young adult cohort. 
