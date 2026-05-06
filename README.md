@@ -36,11 +36,13 @@ util/Diffusion_Perception_loss.ipynb
 (Diffusion_SR_x3_Transfer.ipynb)
 
 # Data structure of the repository
-Download datasets from HCP Servers. Extract HCP files in Sharp-Diffusion/data and run util/nii2png.ipynb to set up Training, Validation, and test splits. 
-- 'data/gt/train/xxxxxx'
-- 'data/x2/train/xxxxxx'
-- 'data/gt/valid/xxxxxx'
-- 'data/x2/valid/xxxxxx'
+Download datasets from HCP Servers. Extract HCP files in Sharp-Diffusion/data and run util/nii2png.ipynb to set up Training, Validation, and test splits. Folders x2 and gt build low- and high-resolution pairs. 
+- 'data/gt/train/volunteerID'
+- 'data/x2/train/volunteerID'
+- 'data/gt/valid/volunteerID'
+- 'data/x2/valid/volunteerID'
+
+Alternatively, use your own data set up training data following this structure.
 
 # Inference
  For HCP data, nifti files and original original intensity scaling can be restored using preds2nii.ipynb. Adapting the path_base and testfolders enables application to new data (.pngs)
