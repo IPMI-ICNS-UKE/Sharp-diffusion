@@ -4,7 +4,7 @@ This repository prvides code for the assessment of Feature loss for 2D super-Res
 All code is available as jupyter notebooks which can be customized for application to new data.
 Models are trained using data from n=10 subjects from the 7T HCP young adult cohort. 
         
-If you are using this repository in your research, please cite [Lohr and Werner](https://github.com/IPMI-ICNS-UKE/Sharp-diffusion):
+If you are using this repository in your research, please cite: https://github.com/IPMI-ICNS-UKE/Sharp-diffusion)
 
 
 # Repository setup
@@ -24,8 +24,6 @@ conda activate SHARP
 pip install -r requirements.txt
 ```
 
-# Loss function: L1 loss and Feature loss using various layers of the VGG16
-
 # Quality metrics  
 MSE and PSNR are tracked during training. Respective metrics could be included into the loss by adjusting the notebook 
 util/Diffusion_Perception_loss.ipynb
@@ -38,14 +36,16 @@ util/Diffusion_Perception_loss.ipynb
 (Diffusion_SR_x3_Transfer.ipynb)
 
 # Data structure of the repository
-Download datasets from HCP Servers. Extract HCP files in Sharp-Diffusion/data and run util/nii2png.ipynb to set up Training, Validation, and test splits. 
-- 'data/gt/train/xxxxxx'
-- 'data/x2/train/xxxxxx'
-- 'data/gt/valid/xxxxxx'
-- 'data/x2/valid/xxxxxx'
-Inference is applied for test data.
-- 'data/x2/test/xxxxxx'
-post inference run preds2nii to restore nifti files with original intensity scaling
+Download datasets from HCP Servers. Extract HCP files in Sharp-Diffusion/data and run util/nii2png.ipynb to set up Training, Validation, and test splits. Folders x2 and gt build low- and high-resolution pairs. 
+- 'data/gt/train/volunteerID'
+- 'data/x2/train/volunteerID'
+- 'data/gt/valid/volunteerID'
+- 'data/x2/valid/volunteerID'
+
+Alternatively, set up your own training data following this structure.
+
+# Inference
+ For HCP data, nifti files and original original intensity scaling can be restored using preds2nii.ipynb. Adapting the path_base and testfolders enables application to new data (.pngs)
 
 
 
