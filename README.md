@@ -42,7 +42,7 @@ Download datasets from HCP Servers. Extract HCP files in Sharp-Diffusion/data an
 - 'data/gt/valid/volunteerID'
 - 'data/x2/valid/volunteerID'
 
-Alternatively, use your own data set up training data following this structure.
+Alternatively, set up your own training data following this structure.
 
 # Inference
  For HCP data, nifti files and original original intensity scaling can be restored using preds2nii.ipynb. Adapting the path_base and testfolders enables application to new data (.pngs)
