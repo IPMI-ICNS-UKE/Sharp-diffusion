@@ -22,7 +22,7 @@ conda activate SHARP
 ```
 pip install -r requirements.txt
 ```
-4) pre-trained models are available via the associated zenodor repository https://doi.org/10.5281/zenodo.20267632
+4) pre-trained models are available via the associated zenodo repository: https://doi.org/10.5281/zenodo.20267632
 
 
 # Quality metrics  
