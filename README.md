@@ -4,8 +4,7 @@ This repository provides code for the assessment of Feature loss for 2D super-Re
 All code is available as jupyter notebooks which can be customized for application to new data.
 Models are trained using data from n=10 subjects from the 7T HCP young adult cohort. 
         
-If you are using this repository in your research, please cite: https://github.com/IPMI-ICNS-UKE/Sharp-diffusion)
-
+If you are using this repository in your research, please cite [Lohr and Werner](https://github.com/Sharp-diffusion/tree/master?tab=readme-ov-file#Citation)
 
 # Repository setup
 1) in your console move to an appropriate directory and clone the repository
@@ -47,7 +46,16 @@ Alternatively, set up your own training data following this structure.
 # Inference
  For HCP data, nifti files and original original intensity scaling can be restored using preds2nii.ipynb. Adapting the path_base and testfolders enables application to new data (.pngs)
 
-
+# Citation
+@misc{lohr2026layerselectionfeaturebasedlosses,
+      title={Layer Selection in Feature-Based Losses Affects Image Quality and Microstructural Consistency in Deep Learning Super-Resolution of Brain Diffusion MRI}, 
+      author={David Lohr and Rene Werner},
+      year={2026},
+      eprint={2605.15895},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2605.15895}, 
+}
 
    
 
