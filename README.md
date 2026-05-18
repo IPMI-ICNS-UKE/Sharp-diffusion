@@ -1,5 +1,5 @@
 # Sharp-Diffusion
-This repository provides code for the assessment of Feature loss for 2D super-Resolution of Diffusion MRI data as published in: Lohr, D and Werner, R. Layer Selection in Feature-Based Losses Affects Image Quality and Microstructural Consistency in Deep Learning Super-Resolution of Brain Diffusion MRI. ArXive. DOI: 10.48550/arXiv.2605.15895. 2026  
+This repository provides code for the assessment of Feature loss for 2D super-Resolution of Diffusion MRI data as published in: Lohr, D and Werner, R. Layer Selection in Feature-Based Losses Affects Image Quality and Microstructural Consistency in Deep Learning Super-Resolution of Brain Diffusion MRI. ArXiv. DOI: 10.48550/arXiv.2605.15895. 2026  
 
 All code is available as jupyter notebooks which can be customized for application to new data.
 Models are trained using data from n=10 subjects from the 7T HCP young adult cohort. 
