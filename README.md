@@ -4,7 +4,7 @@ This repository provides code for the assessment of Feature loss for 2D super-Re
 All code is available as jupyter notebooks which can be customized for application to new data.
 Models are trained using data from n=10 subjects from the 7T HCP young adult cohort. 
         
-If you are using this repository in your research, please cite [Lohr and Werner]
+If you are using this repository in your research, please cite [Lohr and Werner](https://github.com/IPMI-ICNS-UKE/Sharp-diffusion/edit/master/README.md#citation)
 
 # Repository setup
 1) in your console move to an appropriate directory and clone the repository
