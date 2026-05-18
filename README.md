@@ -22,6 +22,8 @@ conda activate SHARP
 ```
 pip install -r requirements.txt
 ```
+4) pre-trained models are available via the associated zenodor repository https://doi.org/10.5281/zenodo.20267632
+
 
 # Quality metrics  
 MSE and PSNR are tracked during training. Respective metrics could be included into the loss by adjusting the notebook 
